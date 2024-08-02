@@ -1,4 +1,5 @@
-# Project Title: House Sales in King County, USA
+# Project Title
+House Sales in King County, USA
 
 # Project Scenario
 In this assignment, you are a Data Analyst working at a Real Estate Investment Trust. The Trust would like to start investing in Residential real estate. 
