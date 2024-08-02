@@ -1,3 +1,5 @@
+# **Project Titel: Insurance Cost Analysis**
+
 # Project Scenario
 <p>You have to perform data analytics on a medical insurance charges dataaset. This is a filtered and modified version of the <a href="https://www.kaggle.com/datasets/harishkumardatalab/medical-insurance-price-prediction?resource=download" target="_blank" rel="noopener noreferrer" title="Medical Insurance Price Prediction">Medical Insurance Price Prediction</a> dataset, available under the <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" target="_blank" rel="noopener noreferrer" title="CC0 1.0 Universal License">CC0 1.0 Universal License</a> on the <a href="https://www.kaggle.com/" target="_blank" rel="noopener noreferrer" title="Kaggle">Kaggle</a> website.</p>
 
