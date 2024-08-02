@@ -69,3 +69,8 @@ The parameters used in the dataset are:
 </tbody></table>
 </li><li><p><strong>Charges</strong><br>Charges for the insurance in USD. Floating value quantity.</p>
 </li></ol>
+
+# Objectives
+In this project, you will:
+<ul>
+<li>Load the data as a pandas dataframe</li><li>Clean the data, taking care of the blank entries</li><li>Run exploratory data analysis and identify the attributes that most affect the charges</li><li>Develop single variable and multi variable Linear Regression models for predicting the charges</li><li>Use Ridge regression to refine the performance of Linear regression models.</li></ul>
