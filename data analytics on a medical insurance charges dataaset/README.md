@@ -4,6 +4,16 @@
 # Parameters
 The parameters used in the dataset are:
 
+| Parameter |Description| Content type |
+|---|----|---|
+|age| Age in years| integer |
+|gender| Male or Female|integer (1 or 2)|
+| bmi | Body mass index | float |
+|no_of_children| Number of children | integer|
+|smoker| Whether smoker or not | integer (0 or 1)|
+|region| Which US region - NW, NE, SW, SE | integer (1,2,3 or 4 respectively)| 
+|charges| Annual Insurance charges in USD | float|
+
 <ol>
 <li><p><strong>Age</strong><br>Age of the insured. Integer quantity.</p>
 </li><li><p><strong>Gender</strong><br>Gender of the insured. This parameter has been mapped to numerical values in the following way.</p>
