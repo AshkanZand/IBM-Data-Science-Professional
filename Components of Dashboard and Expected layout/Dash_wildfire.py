@@ -6,15 +6,20 @@ import plotly.graph_objects as go
 import plotly.express as px
 from dash import no_update
 import datetime as dt
+
 #Create app
 app = dash.Dash(__name__)
+
 #Clear the layout and do not display exception till callback gets executed
 app.config.suppress_callback_exceptions = True
+
 # Read the wildfire data into pandas dataframe
 df =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/Historical_Wildfires.csv')
+
 #Extract year and month from the date column
 df['Month'] = pd.to_datetime(df['Date']).dt.month_name() #used for the names of the months
 df['Year'] = pd.to_datetime(df['Date']).dt.year
+
 #Layout Section of Dash
 #Task 1 Add the Title to the Dashboard
 app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard', 
@@ -54,6 +59,7 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 
 ])
 #layout ends
+
 #TASK 4: Add the Ouput and input components inside the app.callback decorator.
 #Place to add @app.callback Decorator
 @app.callback([Output(component_id='plot1', component_property='children'),
@@ -74,6 +80,7 @@ def reg_year_display(input_region,input_year):
    fig2 = px.bar(veg_data, x='Month', y='Count', title='{} : Average Count of Pixels for Presumed Vegetation Fires in year {}'.format(input_region,input_year))    
    return [dcc.Graph(figure=fig1),
             dcc.Graph(figure=fig2) ]
+  
 if __name__ == '__main__':
     app.run_server()
     
