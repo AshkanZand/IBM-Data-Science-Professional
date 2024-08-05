@@ -1,27 +1,3 @@
-<div class="markdown-body editormd-preview-container editormd-preview-active" previewcontainer="true" style="height: 100%;"><div class="pages"><div class="page" id="page-1" style="display: none;"><h1 class="pageTitle">Practice Assignment Part 2</h1>
-<img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/assets/logos/SN_web_lightmode.png" width="250" alt="cognitiveclass.ai logo">
-
-
-
-<h3><span class="header-link octicon octicon-link"></span>Objectives</h3><p>After completing the lab you will be able to:</p>
-<ul>
-<li>Create a dash board layout with a RadioItem and a Dropdown</li><li>Add Pie chart and Bar chart</li></ul>
-<p><strong>Estimated time needed:</strong> 45 minutes</p>
-<div class="page-footer"><button class="hidden"></button><button class="next">Next</button></div></div><div class="page" id="page-2" style="display: none;"><h1 class="pageTitle">About Skills Network Cloud IDE</h1>
-<p>This Skills Network Labs Cloud IDE (Integrated Development Environment) provides a hands-on environment in your web browser for completing course and project related labs. It utilizes Theia, an open-source IDE platform, that can be run on desktop or on the cloud.<br>So far in the course you have been using Jupyter notebooks to run your python code. This IDE provides an alternative for editing and running your Python code. In this lab you will be using this alternative Python runtime to create and launch your Dash applications.</p>
-<h3><span class="header-link octicon octicon-link"></span>Important Notice about this lab environment</h3><p>Please be aware that sessions for this lab environment are not persisted. When you launch the Cloud IDE, you are presented with a ‘dedicated computer on the cloud’ exclusively for you. This is available to you as long as you are actively working on the labs.</p>
-<p>Once you close your session or it is timed out due to inactivity,  you are logged off, and this ᴥd computer on the cloud嬥ted along with any files you may have created, dowloaded or installed.  The next time you launch this lab, a new environment is created for you.</p>
-<p><em>If you finish only part of the lab and return later, you may have to start from the beginning. So, it is a good idea to plan to your time accordingly and finish your labs in a single session.</em></p>
-<hr>
-<div class="page-footer"><button class="previous">Previous</button><button class="next">Next</button></div></div><div class="page" id="page-3" style="display: block;"><h1 class="pageTitle">Components of Dashboard and Expected layout</h1>
-<h2><span class="header-link octicon octicon-link"></span>Components of the  Dashboard</h2><ol>
-<li><p>Select Region</p>
-</li><li><p>Select Year</p>
-</li><li><p>Divison to display</p>
-<ul>
-<li>Pie Chart to display Monthly Average Estimated Fire Area for the selected Regions in the selected Year</li><li>Bar Chart to display Monthly Average Count of Pixels for Presumed Vegetation Fires for the selected Regions in the selected Year</li></ul>
-</li></ol>
-<hr>
 <h2><span class="header-link octicon octicon-link"></span>Expected Layout</h2><p><img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-DV0101EN-Coursera/images/practice_ass_layout.png" alt="layout_PA_P2" title="layout_PA_P2"></p>
 <h2><span class="header-link octicon octicon-link"></span>Requirements to create the expected result</h2><ul>
 <li>A dropdown <a href="https://dash.plotly.com/dash-core-components/dropdown" target="_blank" rel="noopener noreferrer">menu</a>: For choosing year</li><li>A radioitem for choosing the Region</li><li>The layout will be designed as follows:</li><li>An outer division with two inner divisions (as shown in the expected layout) </li><li>One of the inner divisions will have information about the radioitem and dropdown (which are the input) and the other one is for adding graphs(the 2 output   graphs).</li><li>Callback function to compute data, create graph and return to the layout.</li></ul>
