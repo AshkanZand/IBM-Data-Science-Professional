@@ -12,5 +12,4 @@
 <li>A dropdown <a href="https://dash.plotly.com/dash-core-components/dropdown" target="_blank" rel="noopener noreferrer">menu</a>: For choosing year</li><li>A radioitem for choosing the Region</li><li>The layout will be designed as follows:</li><li>An outer division with two inner divisions (as shown in the expected layout) </li><li>One of the inner divisions will have information about the radioitem and dropdown (which are the input) and the other one is for adding graphs(the 2 output   graphs).</li><li>Callback function to compute data, create graph and return to the layout.</li></ul>
 <h3><span class="header-link octicon octicon-link"></span>To do:</h3><ol>
 <li>Import required libraries and read the dataset</li><li>Create an application layout</li><li>Add title to the dashboard using HTML H1 component</li><li>Add a radioitem using dcc.RaioItems and dropdown using dcc.dropdown</li><li>Add the pie chart and bar chart core graph components.</li><li>Run the app</li></ol>
-<hr>
-<div class="page-footer"><button class="previous">Previous</button><button class="next">Next</button></div></div>
+
